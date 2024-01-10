@@ -8,19 +8,19 @@
     {
         "name": "Cyber Scilab Metro Pass",
         "type": "toggle",
-        "img": "images/items/CPass.png",
+        "img": "images/items/CSciPass.png",
         "codes": "CSciPas"
     },   
 	{
         "name": "Cyber Yoka Metro Pass",
         "type": "toggle",
-        "img": "images/items/CPass.png",
+        "img": "images/items/CYokaPass.png",
         "codes": "CYokaPas"
     },
 	{
         "name": "Cyber Beach Metro Pass",
         "type": "toggle",
-        "img": "images/items/CPass.png",
+        "img": "images/items/CBeachPass.png",
         "codes": "CBeacPas"
     },
 	{

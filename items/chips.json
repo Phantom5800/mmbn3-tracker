@@ -26,7 +26,7 @@
     {
         "name": "Recov 120 S",
         "type": "toggle",
-        "img": "images/items/RecovChip.png",
+        "img": "images/items/Recov120Chip.png",
         "codes": "recov120"
     },
     {
@@ -44,7 +44,7 @@
     {
         "name": "Dynawave V",
         "type": "toggle",
-        "img": "images/items/SWavChip.png",
+        "img": "images/items/DWavChip.png",
         "codes": "dynawave"
     },
     {
