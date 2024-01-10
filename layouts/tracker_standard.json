@@ -113,6 +113,15 @@
                 "type": "layout",
                 "key": "misc_item_grid"
               }
+            },
+            {
+              "type": "group",
+              "header": "Pinned Locations",
+              "content": {
+                  "type": "recentpins",
+                  "style": "wrap",
+                  "compact": true
+              }
             }
           ]
         },
