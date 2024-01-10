@@ -15,22 +15,22 @@
                         "h_alignment": "left",
                         "rows": [
                             [
-                            "CACDCPas",
-                            "CSciPas",
-                            "CYokaPas",
-                            "CBeacPas"
+                                "CACDCPas",
+                                "CSciPas",
+                                "CYokaPas",
+                                "CBeacPas"
                             ],
                             [
-                            "SubPET",
-                            "Needle",
-                            "PETCase",
-                            "ranks"
+                                "SubPET",
+                                "Needle",
+                                "PETCase",
+                                "ranks"
                             ],
                             [
-                            "WWW_ID",
-                            "press",
-                            "OrderSys",
-                            "Hammer"
+                                "WWW_ID",
+                                "press",
+                                "OrderSys",
+                                "Hammer"
                             ]
                         ]
                     }
@@ -54,24 +54,24 @@
                         "h_alignment": "left",
                         "rows": [
                             [
-                            "recov30",
-                            "magnum",
-                            "sonicwave"
+                                "recov30",
+                                "magnum",
+                                "sonicwave"
                             ],
                             [
-                            "bubbler",
-                            "recov120",
-                            "shake"
+                                "bubbler",
+                                "recov120",
+                                "shake"
                             ],
                             [
-                            "firesword",
-                            "dynawave",
-                            "widesword"
+                                "firesword",
+                                "dynawave",
+                                "widesword"
                             ],
                             [
-                            "holemeteor",
-                            "shadow",
-                            "grabback"
+                                "holemeteor",
+                                "shadow",
+                                "grabback"
                             ]
                         ]
                     }
@@ -95,23 +95,23 @@
                         "h_alignment": "left",
                         "rows": [
                             [
-                            "ModTools",
-                            "Expmem"
+                                "ModTools",
+                                "Expmem"
                             ],
                             [
-                            "SpinWht",
-                            "SpinPnk",
-                            "SpinYllw"
+                                "SpinWht",
+                                "SpinPnk",
+                                "SpinYllw"
                             ],
                             [
-                            "SpinRed",
-                            "SpinBlue",
-                            "SpinGrn"
+                                "SpinRed",
+                                "SpinBlue",
+                                "SpinGrn"
                             ],
                             [
-                            "SpinOrange",
-                            "SpinPurple",
-                            "SpinDark"
+                                "SpinOrange",
+                                "SpinPurple",
+                                "SpinDark"
                             ]
                         ]
                     }

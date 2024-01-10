@@ -8,8 +8,7 @@
       "content": [
         {
           "type": "dock",
-          "dock": "left",
-          "v_alignment": "stretch",
+          "dock": "bottom",
           "content": [
             {
               "type": "group",

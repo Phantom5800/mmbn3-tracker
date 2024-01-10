@@ -6,12 +6,67 @@
       "content": [
         {
           "type": "array",
-          "orientation": "horizontal",
+          "orientation": "vertical",
+          "h_alignment": "center",
           "margin": "0,0",
           "content": [
             {
-              "type": "layout",
-              "key": "key_item_grid"
+              "type": "itemgrid",
+              "item_margin": "10, 10",
+              "h_alignment": "left",
+              "rows": [
+                [
+                  "CACDCPas",
+                  "CSciPas",
+                  "CYokaPas",
+                  "CBeacPas"
+                ],
+                [
+                  "SubPET",
+                  "Needle",
+                  "PETCase",
+                  "ranks"
+                ],
+                [
+                  "WWW_ID",
+                  "press",
+                  "OrderSys",
+                  "Hammer"
+                ],
+                [
+                  "recov30",
+                  "magnum",
+                  "sonicwave",
+                  "bubbler",
+                  "recov120",
+                  "shake"
+                ],
+                [
+                  "firesword",
+                  "dynawave",
+                  "widesword",
+                  "holemeteor",
+                  "shadow",
+                  "grabback"
+                ],
+                [
+                  "ModTools",
+                  "Expmem"
+                ],
+                [
+                  "SpinWht",
+                  "SpinPnk",
+                  "SpinYllw",
+                  "SpinRed",
+                  "SpinBlue"
+                ],
+                [
+                  "SpinGrn",
+                  "SpinOrange",
+                  "SpinPurple",
+                  "SpinDark"
+                ]
+              ]
             }
           ]
         }
