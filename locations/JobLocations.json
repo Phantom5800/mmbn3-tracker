@@ -1,7 +1,8 @@
 [
     {
         "name": "Job Logic",
-        "visibility_rules": ["SubPET"],
+        "visibility_rules": ["jobs_enabled"],
+        "access_rules": ["SubPET"],
         "children": [
             // I'm assuming that you grab all Jobs as soon as you can access SciLab. TBH, there's no reason not to.
             {
@@ -30,7 +31,6 @@
             // My navi is Sick is in locations, as it's a single step
             {
                 "name": "Job - Help me with my son!",
-                "visibility_rules": ["SubPET"],
                 "access_rules": ["HMWMS1"],
                 "map_locations": [
                     {
@@ -58,13 +58,11 @@
                 "sections": [
                     {
                         "name":"Transmission Error Start",
-                        "hosted_item": "TE1",
-                        "access_rules": ["SubPET"]
+                        "hosted_item": "TE1"
                     },
                     {
                         "name": "Transmission Error Finish",
                         "access_rules": ["TE2"],
-                        "visibility_rules": ["SubPET"],
                         "hosted_item": "TE3"
                     }
                 ]
@@ -81,7 +79,6 @@
                 "sections": [
                     {
                         "name":"Viruses",
-                        "visibility_rules": ["SubPET"],
                         "access_rules": ["TE1,Needle"],
                         "hosted_item": "TE2"
                     }
@@ -99,25 +96,20 @@
                 "sections": [
                     {
                         "name":"Chip Prices - Start",
-                        "visibility_rules": ["SubPET"],
-                        "access_rules": ["SubPET"],
                         "hosted_item": "CP1"
                     },
                     {
                         "name": "Chip Prices - Do it again",
-                        "visibility_rules": ["SubPET"],
                         "access_rules": ["CP2"],
                         "hosted_item": "CP3"
                     },
                     {
                         "name": "Chip Prices - Finish",
-                        "visibility_rules": ["SubPET"],
                         "access_rules": ["CP4"],
                         "hosted_item": "CP5"
                     },
                     {
                         "name": "Will You Deliver? - Red Navi",
-                        "visibility_rules": ["SubPET"],
                         "access_rules": ["WYD3"],
                         "hosted_item": "WYD4"
                     }
@@ -135,13 +127,11 @@
                 "sections": [
                     {
                         "name":"Price Check",
-                        "visibility_rules": ["SubPET"],
                         "access_rules": ["CP1"],
                         "hosted_item": "CP2"
                     },
                     {
                         "name": "This one again too",
-                        "visibility_rules": ["SubPET"],
                         "access_rules": ["CP3"],
                         "hosted_item": "CP4"
                     }
@@ -160,7 +150,6 @@
                 "sections": [
                     {
                         "name":"Navi Rescue",
-                        "visibility_rules": ["SubPET"],
                         "access_rules": ["IB1"],
                         "hosted_item": "IB2"
                     }
@@ -181,18 +170,16 @@
                     {
                         "name": "Start",
                         "hosted_item": "WYD1",
-                        "access_rules": ["SubPET, Needle"]
+                        "access_rules": ["Needle"]
                     },
                     // Will You Deliver 2 in Locations, DNN Station
                     {
                         "name": "Wrong chip, try again",
-                        "visibility_rules": ["SubPET"],
-                        "access_rules": ["SubPET,Needle,WYD2"],
+                        "access_rules": ["Needle,WYD2"],
                         "hosted_item": "WYD3"
                     },
                     {
                         "name": "Will You Deliver? - Finish",
-                        "visibility_rules": ["SubPET"],
                         "access_rules": ["WYD4"],
                         "hosted_item": "WYD5"
                     }
@@ -211,7 +198,6 @@
                 "sections": [
                     {
                         "name": "Virus Bomb - 'Red'",
-                        "visibility_rules": ["SubPET"],
                         "hosted_item": "SPH2"
                     }
                 ]
@@ -228,7 +214,6 @@
                 "sections": [
                     {
                         "name": "Virus Bomb - 'Wooden'",
-                        "visibility_rules": ["SubPET"],
                         "hosted_item": "SPH3"
                     }
                 ]
@@ -245,7 +230,6 @@
                 "sections": [
                     {
                         "name": "Virus Bomb - 'Zero'",
-                        "visibility_rules": ["SubPET"],
                         "hosted_item": "SPH4"
                     }
                 ]
@@ -262,13 +246,11 @@
                 "sections": [
                     {
                         "name": "Job Start",
-                        "visibility_rules": ["SubPET"],
-                        "access_rules": ["Needle,SubPET"],
+                        "access_rules": ["Needle"],
                         "hosted_item": "LFC1"
                     },
                     {
                         "name": "Job Finish",
-                        "visibility_rules": ["SubPET"],
                         "access_rules": ["LFC3"],
                         "hosted_item": "LFC4"
                     }
@@ -287,7 +269,6 @@
                 "sections": [
                     {
                         "name": "Bag the bird",
-                        "visibility_rules": ["SubPET"],
                         "access_rules": ["LFC2"],
                         "hosted_item": "LFC3"
                     }
@@ -306,7 +287,6 @@
                 "sections": [
                     {
                         "name": "Waitress",
-                        "visibility_rules": ["SubPET"],
                         "access_rules": ["PETCase,OM2"],
                         "hosted_item": "OM3"
                     }
@@ -324,13 +304,11 @@
                 "sections": [
                     {
                         "name":"Job - Catching gang members - Start",
-                        "visibility_rules": ["SubPET"],
-                        "access_rules": ["SubPET,Needle,press","SubPET,CYokaPas"],
+                        "access_rules": ["Needle,press","CYokaPas"],
                         "hosted_item": "CGM1"
                     },
                     {
                         "name": "Job - Catching gang members - Finish",
-                        "visibility_rules": ["SubPET"],
                         "access_rules": ["CGM2,CGM3,CGM4,CGM5"],
                         "hosted_item": "CGM6"
                     }
@@ -348,8 +326,7 @@
                 "sections": [
                     {
                         "name":"",
-                        "visibility_rules": ["SubPET"],
-                        "access_rules": ["CGM1,Needle,press","CGM1,SubPET,CYokaPas,press"],
+                        "access_rules": ["CGM1,Needle,press","CGM1,CYokaPas,press"],
                         "hosted_item": "CGM2"
                     }
                 ]
@@ -366,8 +343,7 @@
                 "sections": [
                     {
                         "name":"",
-                        "visibility_rules": ["SubPET"],
-                        "access_rules": ["CGM1,Needle,press","CGM1,SubPET,CYokaPas"],
+                        "access_rules": ["CGM1,Needle,press","CGM1,CYokaPas"],
                         "hosted_item": "CGM3"
                     }
                 ]
@@ -384,8 +360,7 @@
                 "sections": [
                     {
                         "name":"",
-                        "visibility_rules": ["SubPET"],
-                        "access_rules": ["CGM1,Needle,press","CGM1,SubPET,CYokaPas"],
+                        "access_rules": ["CGM1,Needle,press","CGM1,CYokaPas"],
                         "hosted_item": "CGM4"
                     }
                 ]
@@ -402,8 +377,7 @@
                 "sections": [
                     {
                         "name":"",
-                        "visibility_rules": ["SubPET"],
-                        "access_rules": ["CGM1,Needle,press","CGM1,SubPET,CYokaPas,press"],
+                        "access_rules": ["CGM1,Needle,press","CGM1,CYokaPas,press"],
                         "hosted_item": "CGM5"
                     }
                 ]
@@ -420,8 +394,6 @@
                 "sections": [
                     {
                         "name":"50 BugFrags later...",
-                        "visibility_rules": ["SubPET"],
-                        "access_rules": [""],
                         "hosted_item": "PAAV1"
                     }
                 ]
@@ -438,13 +410,11 @@
                 "sections": [
                     {
                         "name": "Start",
-                        "visibility_rules": ["SubPET"],
-                        "access_rules": ["SubPET,PETCase"],
+                        "access_rules": ["PETCase"],
                         "hosted_item": "LT1"
                     },
                     {
                         "name": "Finish",
-                        "visibility_rules": ["SubPET"],
                         "access_rules": ["LTSea,LTSky,LTLand"],
                         "hosted_item": "LT2B"
                     }
@@ -462,8 +432,7 @@
                 "sections": [
                     {
                         "name": "SeaTome",
-                        "visibility_rules": ["SubPET"],
-                        "access_rules": ["SubPET,PETCase,LT1"],
+                        "access_rules": ["PETCase,LT1"],
                         "hosted_item": "LTSea"
                     }
                 ]
@@ -485,8 +454,7 @@
                 "sections": [
                     {
                         "name": "LandTome",
-                        "visibility_rules": ["SubPET"],
-                        "access_rules": ["SubPET,PETCase,LT1"],
+                        "access_rules": ["PETCase,LT1"],
                         "hosted_item": "LTLand"
                     }
                 ]
@@ -503,8 +471,7 @@
                 "sections": [
                     {
                         "name": "SkyTome",
-                        "visibility_rules": ["SubPET"],
-                        "access_rules": ["SubPET,PETCase,[magnum],LT1"],
+                        "access_rules": ["PETCase,[magnum],LT1"],
                         "hosted_item": "LTSky"
                     }
                 ]
@@ -522,14 +489,12 @@
                 "sections": [
                     {
                         "name":"Start",
-                        "visibility_rules": ["SubPET"],
-                        "access_rules": ["SubPET,Needle"],
+                        "access_rules": ["Needle"],
                         "hosted_item": "HAS1"
                     },
                     {
                         "name": "Finish",
-                        "visibility_rules": ["SubPET"],
-                        "access_rules": ["SubPET,Needle,HAS2,HAS3,HAS4,HAS5"],
+                        "access_rules": ["Needle,HAS2,HAS3,HAS4,HAS5"],
                         "hosted_item": "HAS6"
                     }
                 ]
@@ -546,7 +511,6 @@
                 "sections": [
                     {
                         "name":"First",
-                        "visibility_rules": ["SubPET"],
                         "access_rules": ["HAS1"],
                         "hosted_item": "HAS2"
                     }
@@ -564,7 +528,6 @@
                 "sections": [
                     {
                         "name":"Second",
-                        "visibility_rules": ["SubPET"],
                         "access_rules": ["HAS1"],
                         "hosted_item": "HAS3"
                     }
@@ -582,7 +545,6 @@
                 "sections": [
                     {
                         "name":"Third",
-                        "visibility_rules": ["SubPET"],
                         "access_rules": ["HAS1"],
                         "hosted_item": "HAS4"
                     }
@@ -600,7 +562,6 @@
                 "sections": [
                     {
                         "name":"Fourth",
-                        "visibility_rules": ["SubPET"],
                         "access_rules": ["HAS1"],
                         "hosted_item": "HAS5"
                     }
@@ -618,10 +579,8 @@
                 "sections": [
                     {
                         "name":"",
-                        "visibility_rules": ["SubPET"],
                         "access_rules": [
                             "CBeacPas,press",
-                            "[SubPET]",
                             "[CSciPas]"
                         ],
                         "hosted_item": "FTBN1"
@@ -643,13 +602,11 @@
                 "sections": [
                     {
                         "name": "Enter Contest",
-                        "visibility_rules": ["SubPET"],
                         "access_rules": ["SC1"],
                         "hosted_item": "SC2"
                     },
                     {
                         "name": "Finish Contest",
-                        "visibility_rules": ["SubPET"],
                         "access_rules": ["SCSci,SCYoka,SCBeach"],
                         "hosted_item": "SC4"
                     }
@@ -668,7 +625,6 @@
                 "sections": [
                     {
                         "name": "Scilab Net Stamp",
-                        "visibility_rules": ["SubPET"],
                         "access_rules": [
                             "SubPET,SC2",
                             "CSciPas,SC2",
@@ -692,7 +648,6 @@
                 "sections": [
                     {
                         "name": "Yoka Net Stamp",
-                        "visibility_rules": ["SubPET"],
                         "access_rules": [
                             "Needle,press,SC2",
                             "CYokaPas,SC2"
@@ -714,7 +669,6 @@
                 "sections": [
                     {
                         "name": "Beach Net Stamp",
-                        "visibility_rules": ["SubPET"],
                         "access_rules": [
                             "Needle,CBeacPas,SC2",
                             "CYokaPas,CBeacPas,press,SC2"
@@ -737,7 +691,6 @@
                 "sections": [
                     {
                         "name": "Message 1 - Squirrel",
-                        "visibility_rules": ["SubPET"],
                         "access_rules": ["HWW1"],
                         "hosted_item": "HWW2"
                     }
@@ -757,7 +710,6 @@
                 "sections": [
                     {
                         "name": "Message 3 - Demon Fire",
-                        "visibility_rules": ["SubPET"],
                         "access_rules": ["HWW3,CYokaPas",
                                         "HWW3,Needle,press"
                                         ],
@@ -782,9 +734,8 @@
                         "access_rules": [
                             "HWW5,CBeacPas,press",
                             "HWW5,[CBeacPas],[press]"
-                                        ],
-                        "visibility_rules": ["SubPET"]
-					}
+                                        ]
+ 					}
 				]
 			}
         ]

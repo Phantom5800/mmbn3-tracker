@@ -121,6 +121,12 @@
                   "type": "recentpins",
                   "style": "wrap",
                   "compact": true
+              },
+              "header_content": {
+                "type": "button_popup",
+                "style": "settings",
+                "popup_background": "#55212121",
+                "layout": "settings_menu"
               }
             }
           ]

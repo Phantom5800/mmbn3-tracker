@@ -3,6 +3,7 @@
         "type": "array",
         "orientation": "vertical",
         "margin": "0,0",
+        "scale": "1.5",
         "content": [
             {
                 "type": "array",
@@ -42,6 +43,7 @@
         "type": "array",
         "orientation": "vertical",
         "margin": "0,0",
+        "scale": "1.5",
         "content": [
             {
                 "type": "array",
@@ -83,6 +85,7 @@
         "type": "array",
         "orientation": "vertical",
         "margin": "0,0",
+        "scale": "1.5",
         "content": [
             {
                 "type": "array",
@@ -118,5 +121,27 @@
                 ]
             }
         ]
-    }
+    },
+    "settings_menu": {
+		"type": "array",
+		"orientation": "vertical",
+		"content": [
+			{
+				"type": "group",
+				"header": "Settings",
+				"content": [
+					{
+						"type": "itemgrid",
+						"h_alignment": "left",
+						"item_margin": "1,2",
+						"rows": [
+							[
+								"jobs_enabled"
+							]
+						]
+					}
+				]
+			}
+		]
+	}
 }

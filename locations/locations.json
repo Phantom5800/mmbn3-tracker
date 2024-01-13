@@ -485,53 +485,13 @@
 					},
 					{
 						"name": "SonicWav W Trade",
-						"access_rules": [
-							"sonicwave"
-						],
+						"access_rules": ["sonicwave"],
 						"item_count": 1
 					},
 					{
 						"name": "Bubbler C Trade",
-						"access_rules": [
-							"[bubbler]"
-							//Go farm in Yai's Phone :)
-						],
+						"access_rules": ["[bubbler]"],
 						"item_count": 1
-					},
-					{
-						"name": "Job - Somebody, please help! Start",
-						"visibility_rules": ["SubPET"],
-						"hosted_item": "SPH1"
-					},
-					{
-						"name": "Job - Somebody, Please help! Finish",
-						"visibility_rules": ["SubPET"],
-						"access_rules": ["SPH2,SPH3,SPH4"],
-						"hosted_item": "SPH5"
-					},
-					{
-						"name": "Job - Old Master (Teachers lounge Yearbook)",
-						"visibility_rules": ["SubPET"],
-						"access_rules": ["OM1"],
-						"hosted_item": "OM2"
-					},
-					{
-						"name": "Job - Legendary Tomes (Weird Statue in Lounge)",
-						"visibility_rules": ["SubPET"],
-						"access_rules": ["LTSea,LTSky,LTLand"],
-						"hosted_item": "LT2B"
-					},
-					{
-						"name": "Job - Help With A Will - Start (Kid Outside 5A)",
-						"visibility_rules": ["SubPET"],
-						"access_rules": ["SubPET"],
-						"hosted_item": "HWW1"
-					},
-					{
-						"name": "Job - Help With A Will - Finish (Kid Outside 5A)",
-						"visibility_rules": ["SubPET"],
-						"access_rules": ["HWW6"],
-						"hosted_item": "HWW7"
 					}
 				]
 			},
@@ -572,11 +532,6 @@
 					{
 						"name": "Yai's Phone BMD",
 						"item_count": 1
-					},
-					{
-						"name": "Job - Rare Chips for Cheap!",
-						"visibility_rules": ["SubPET"],
-						"hosted_item": "RC1"
 					}
 				]
 			},
@@ -698,12 +653,6 @@
 					{
 						"name": "Garbage Can",
 						"item_count": 1
-					},
-					{
-						"name": "Job - My Navi is sick",
-						"visibility_rules": ["SubPET"],
-						"hosted_item": "MNIS1",
-						"access_rules": ["[recov30]"]
 					}
 				]
 			},
@@ -738,19 +687,8 @@
 				],
 				"sections": [
 					{
-						"name": "",
+						"name": "BMD",
 						"item_count": 1
-					},
-					{
-						"name": "Job - Old Master - Start",
-						"visibility_rules": ["SubPET"],
-						"hosted_item": "OM1"
-					},
-					{
-						"name": "Job - Old Master - Finish",
-						"visibility_rules": ["OM3"],
-						"access_rules": ["OM3"],
-						"hosted_item": "OM4"
 					}
 				]
 			},
@@ -765,7 +703,7 @@
 				],
 				"sections": [
 					{
-						"name": "",
+						"name": "BMDs",
 						"item_count": 2
 					}
 				]
@@ -787,196 +725,6 @@
 					{
 						"name": "PMD",
 						"item_count": 1
-					}
-				]
-			},
-			{
-				"name": "Job Board (Scilab/ACDC access)",
-				"map_locations": [
-					{
-						"map": "SciLab",
-						"x": 720,
-						"y": 409
-					}
-				],
-				"sections": [
-					{
-						"name": "Job - Please deliver this",
-						"clear_as_group": false,
-						"hosted_item": "PDT1,PDT2,PDT3"
-					},
-					{
-						"name": "Job - My Navi is sick",
-						"clear_as_group": false,
-						"hosted_item": "MNIS1",
-						"access_rules": ["[recov30]"]
-					},
-					{
-						"name": "Job - Chip Prices",
-						"clear_as_group": false,
-						"hosted_item": "CP1,CP2,CP3,CP4,CP5"
-					},
-					{
-						"name": "Job - Rare chips for cheap",
-						"clear_as_group": false,
-						"hosted_item": "RC1"
-					},
-					{
-						"name": "Job - Somebody please help",
-						"clear_as_group": false,
-						"hosted_item": "SPH1,SPH2,SPH3,SPH4,SPH5"
-					},
-					{
-						"name": "Job - Please adopt a virus",
-						"clear_as_group": false,
-						"hosted_item": "PAAV1"
-					},
-					{
-						"name": "Job - Finding the blue Navi",
-						"clear_as_group": false,
-						"access_rules": [
-							"Press,Needle,CBeacPas",
-							"Press,CYokaPas,CBeacPas",
-							"[SubPET]",
-							"[CSciPas]"
-						],
-						"hosted_item": "FTBN1"
-					}
-				]
-			},
-			{
-				"name": "Job Board (Other regions)",
-				"map_locations": [
-					{
-						"map": "SciLab",
-						"x": 760,
-						"y": 409
-					}
-				],
-				"sections": [
-					{
-						"name": "Job - Help me with my son",
-						"clear_as_group": false,
-						"access_rules": [
-							"Needle"
-						],
-						"hosted_item": "HMWMS1,HMWMS2,HMWMS3"
-					},
-					{
-						"name": "Job - Transmission error",
-						"clear_as_group": false,
-						"access_rules": [
-							"Needle"
-						],
-						"hosted_item": "TE1,TE2,TE3"
-					},
-					{
-						"name": "Job - I'm broke?!",
-						"clear_as_group": false,
-						"access_rules": [
-							"Needle"
-						],
-						"hosted_item": "IB1,IB2,IB3"
-					},
-					{
-						"name": "Job - Be my boyfriend",
-						"clear_as_group": false,
-						"access_rules": [
-							// Can be updated once the Metro works "correctly"
-							"CBeacPas,Needle",
-							"CbeacPass,CYokaPas,Press"
-						],
-						"hosted_item": "BMB1,BMB2"
-					},
-					{
-						"name": "Job - Will you deliver",
-						"clear_as_group": false,
-						"access_rules": [
-							"Needle,PETCase"
-						],
-						"hosted_item": "WYD1,WYD2,WYD3,WYD4,WYD5"
-					},
-					{
-						"name": "Job - Looking for condor",
-						"clear_as_group": false,
-						"access_rules": [
-							"Needle,PETCase"
-						],
-						"hosted_item": "LFC1,LFC2,LFC3,LFC4"
-					},
-					{
-						"name": "Job - Help with rehab",
-						"clear_as_group": false,
-						"access_rules": [
-							"PETCase"
-						],
-						"hosted_item": "HWR1,HWR2"
-					},
-					{
-						"name": "Job - Old Master",
-						"clear_as_group": false,
-						"access_rules": [
-							"PETCase"
-						],
-						"hosted_item": "OM1,OM2,OM3,OM4"
-					},
-					{
-						"name": "Job - Catching gang members",
-						"clear_as_group": false,
-						"access_rules": [
-							"Needle,press",
-							"CYokaPas,press"
-						],
-						"hosted_item": "CGM1,CGM2,CGM3,CGM4,CGM5,CGM6"
-					},
-					{
-						"name": "Job - Legendary Tomes",
-						"clear_as_group": false,
-						"access_rules": [
-							"PETCase,[CBeacPas],[Press],magnum"
-						],
-						"hosted_item": "LT1,LTLand,LTSea,LTSky,LT2B"
-					},
-					{
-						"name": "Job - Legendary Tomes Treasure",
-						"clear_as_group": false,
-						"access_rules": [
-							"PETCase,[CBeacPas],[Press],magnum"
-						],
-						"hosted_item": "LT2B"
-					},
-					{
-						"name": "Job - Hide and Seek",
-						"clear_as_group": false,
-						"access_rules": [
-							"Needle"
-						],
-						"hosted_item": "HAS1,HAS2,HAS3,HAS4,HAS5,HAS6"
-					},
-					{
-						"name": "Job - Give your support",
-						"clear_as_group": false,
-						"access_rules": [
-							"PETCase"
-						],
-						"hosted_item": "GYS1"
-					},
-					{
-						"name": "Job - Stamp collecting",
-						"clear_as_group": false,
-						"access_rules": [
-							"PETCase,CBeacPas,Needle",
-							"PETCase,CbeacPass,CYokaPas,press"
-						],
-						"hosted_item": "SC1,SC2,SCSci,SCYoka,SCBeach,SC4,SC5"
-					},
-					{
-						"name": "Job - Help with a will",
-						"clear_as_group": false,
-						"access_rules": [
-							"Needle,PETCase,[Press]"
-						],
-						"hosted_item": "HWW1,HWW2,HWW3,HWW4,HWW5,HWW6,HWW7"
 					}
 				]
 			}
@@ -1615,12 +1363,6 @@
 					{
 						"name": "Villain",
 						"item_count": 1
-					},
-					{
-						"name": "Job - Be my boyfriend",
-						"visibility_rules": ["SubPET"],
-						"access_rules": ["SubPET,CBeacPas,Needle","SubPET,CBeacPas,CYokaPas,Press","SubPET,Press,[CBeacPas],[Needle]","SubPET,press,[CbeacPass],[CYokaPas]"],
-						"hosted_item": "BMB1"
 					}
 				]
 			},
@@ -1681,13 +1423,6 @@
 					{
 						"name": "DNN Kiosk",
 						"item_count": 1
-					},
-
-					{
-						"name": "Job - Will You Deliver?",
-						"visibility_rules": ["SubPET"],
-						"access_rules": ["SubPET,WYD1,PETCase"],
-						"hosted_item": "WYD2"
 					}
 				]
 			},
@@ -1786,30 +1521,6 @@
 					{
 						"name": "TV BMD",
 						"item_count": 1
-					},
-					{
-						"name": "Job - Help with rehab (in TV)",
-						"visibility_rules": ["SubPET"],
-						"access_rules": ["SubPET"],
-						"hosted_item": "HWR2"
-					},
-					{
-						"name": "Looking for Condor (2F, right room)",
-						"visibility_rules": ["LFC1"],
-						"access_rules": ["LFC1"],
-						"hosted_item": "LFC2"
-					},
-					{
-						"name": "Stamp Collecting - Start (2f Nurse)",
-						"visibility_rules": ["SubPET"],
-						"access_rules": ["SubPET,PETCase"],
-						"hosted_item": "SC1"
-					},
-					{
-						"name": "Stamp Collecting - Finish (2f Nurse)",
-						"visibility_rules": ["SC4"],
-						"access_rules": ["SubPET,PETCase,SC4"],
-						"hosted_item": "SC5"
 					}
 				]
 			},
@@ -1943,12 +1654,6 @@
 							"Ordersys,[grabback]"
 						],
 						"item_count": 1
-					},
-					{
-						"name": "Job - Give Your Support",
-						"visibility_rules": ["SubPet"],
-						"access_rules": ["SubPET"],
-						"hosted_item": "GYS1"
 					}
 				]
 			},

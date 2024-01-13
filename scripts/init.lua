@@ -13,15 +13,16 @@ print("Starting up scripts")
 ScriptHost:LoadScript("scripts/utils.lua")
 
 -- Add Items
+Tracker:AddItems("items/chips.json")
 Tracker:AddItems("items/keyitems.json")
 Tracker:AddItems("items/NaviCust.json")
 Tracker:AddItems("items/ranks.json")
-Tracker:AddItems("items/chips.json")
+Tracker:AddItems("items/settings.json")
 
 Tracker:AddMaps("maps/maps.json")
 
 Tracker:AddLocations("locations/locations.json")
-Tracker:AddLocations("locations/JobLocations.json")
+--Tracker:AddLocations("locations/JobLocations.json")
 
 Tracker:AddLayouts("layouts/common.json")
 Tracker:AddLayouts("layouts/items.json")

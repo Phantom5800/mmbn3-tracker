@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Jobs Enabled",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "jobs_enabled",
+        "loop": true
+    }
+]
